@@ -1,0 +1,12 @@
+<!ELEMENT Proizvodi (Proizvod)+>
+<!ELEMENT Proizvod (Kategorija,Cena,Tekst,Oznaka+,Akcija+)>
+<!ELEMENT Kategorija (#PCDATA)>
+<!ELEMENT Cena (#PCDATA)>
+<!ELEMENT Tekst (#PCDATA)>
+<!ELEMENT Oznaka (#PCDATA)>
+<!ELEMENT Akcija (#PCDATA)>
+
+<!ATTLIST Kategorija imeKategorije (Laptop | Monitor | Sto | Stolica) #REQUIRED>
+<!ATTLIST Cena valuta (RSD | EUR)  #REQUIRED>
+<!ATTLIST Akcija Cena CDATA #REQUIRED>
+<!ATTLIST Akcija DatumIsteka CDATA #REQUIRED>
