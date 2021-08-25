@@ -1,0 +1,34 @@
+<Proizvodi>
+<Proizvod>
+    <Kategorija imeKategorije='Laptopovi'/>
+    <Cena valuta='RSD'>60000</Cena>
+    <Tekst> ASUS N55S, 8GB RAM, Intel i7 CPU </Tekst>
+    <Oznaka>Laptop</Oznaka>
+    <Akcija Cena='55000' DatumIsteka='25-08-2021'/>
+    <Akcija Cena='51000' DatumIsteka='25-10-2021'/>
+</Proizvod>
+<Proizvod>
+    <Kategorija imeKategorije='Monitori'/>
+    <Cena valuta='RSD'>10000</Cena>
+    <Tekst>Monitor ASUS HT</Tekst>
+    <Oznaka>Monitor</Oznaka>
+    <Oznaka>ASUS</Oznaka>
+    <Akcija Cena='10000' DatumIsteka='17-08-2021'></Akcija>
+</Proizvod>
+<Proizvod>
+    <Kategorija imeKategorije='Stolovi'/>
+    <Cena valuta='RSD'>15000</Cena>
+    <Tekst>Radni sto 305x170</Tekst>
+    <Oznaka>Sto</Oznaka>
+    <Oznaka>Drveni</Oznaka>
+    <Akcija Cena='15000' DatumIsteka='24-08-2021'></Akcija>
+</Proizvod>
+<Proizvod>
+    <Kategorija imeKategorije='Stolice'/>
+    <Cena valuta='RSD'>8000</Cena>
+    <Tekst>Stolica za racunar</Tekst>
+    <Oznaka>Stolica</Oznaka>
+    <Oznaka>Plasticna</Oznaka>
+    <Akcija Cena='8000' DatumIsteka='17-08-2021'></Akcija>
+</Proizvod>
+</Proizvodi>
