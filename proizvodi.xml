@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Proizvodi SYSTEM "proizvodi.dtd">
 <Proizvodi>
 <Proizvod>
-    <Kategorija imeKategorije='Laptopovi'/>
+    <Kategorija imeKategorije='Laptop'/>
     <Cena valuta='RSD'>60000</Cena>
     <Tekst> ASUS N55S, 8GB RAM, Intel i7 CPU </Tekst>
     <Oznaka>Laptop</Oznaka>
@@ -9,7 +10,7 @@
     <Akcija Cena='51000' DatumIsteka='25-10-2021'/>
 </Proizvod>
 <Proizvod>
-    <Kategorija imeKategorije='Monitori'/>
+    <Kategorija imeKategorije='Monitor'/>
     <Cena valuta='RSD'>10000</Cena>
     <Tekst>Monitor ASUS HT</Tekst>
     <Oznaka>Monitor</Oznaka>
@@ -17,7 +18,7 @@
     <Akcija Cena='10000' DatumIsteka='17-08-2021'></Akcija>
 </Proizvod>
 <Proizvod>
-    <Kategorija imeKategorije='Stolovi'/>
+    <Kategorija imeKategorije='Sto'/>
     <Cena valuta='RSD'>15000</Cena>
     <Tekst>Radni sto 305x170</Tekst>
     <Oznaka>Sto</Oznaka>
@@ -25,7 +26,7 @@
     <Akcija Cena='15000' DatumIsteka='24-08-2021'></Akcija>
 </Proizvod>
 <Proizvod>
-    <Kategorija imeKategorije='Stolice'/>
+    <Kategorija imeKategorije='Stolica'/>
     <Cena valuta='RSD'>8000</Cena>
     <Tekst>Stolica za racunar</Tekst>
     <Oznaka>Stolica</Oznaka>
