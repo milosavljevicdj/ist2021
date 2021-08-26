@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="stringtype">
+    <xs:restriction base="xs:string">
+</xs:simpleType>
+
+<xs:simpleType name="nonNegativeInt">
+    <xs:restriction base="xs:nonNegativeInteger">
+</xs:simpleType>
+
+<xs:simpleType name="date">
+    <xs:restriction base="xs:date">
+</xs:simpleType>
+
+<xs:complexType name="proizvodtype">
+    <xs:sequence>
+        <xs:element name="Kategorija" type="stringtype"/>
+        <xs:element name="Cena" type="nonNegativeInt"/>
+        <xs:element name="Tekst">
+        <xs:simpleType>
+            <xs:restriction base="stringtype">
+                <xs:minLength value="10"/>
+                <xs:maxLength value="180"/>
+            </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        <xs:element name="Oznaka" type="stringtype" minOccurs="1" maxOccurs="5"/>
+        <xs:element name="Akcija">
+            <xs:complexType>
+            <xs:simpleContent>
+            <xs:extension base="stringtype">
+                <xs:attribute name="Cena" type="noNegativeInt" use="required"/>
+                <xs:attribute name="DatumIsteka" type="date" use="required"/>
+            </xs:extension>
+            </xs:simpleContent>
+            </xs:complexType>
+            </xs:element>    
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="prizvoditype">
+    <xs:sequence>
+        <xs:element name="Proizvod" type="prozvodtype" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:element name="Proizvodi" type="proizvoditype"/>
+</xs:schema>
