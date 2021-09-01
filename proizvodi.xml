@@ -1,4 +1,6 @@
-<Proizvodi>
+<?xml version="1.0" encoding="utf-8"?>
+
+<Proizvodi xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="proizvodi.xsd">
 <Proizvod>
     <Kategorija imeKategorije='Laptopovi'/>
     <Cena valuta='RSD'>60000</Cena>
