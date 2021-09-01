@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav a {
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 8px;
+            background-color: #dddddd;
+        }
+        p{
+            padding: 0px;
+            margin: 0px;
+            font-size: 8pt;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/sviProizvodi">Pogledaj sve proizvode</a>
+        <a href="/dodajProizvod">Dodaj proizvod</a>
+    </nav>
+    <form action="/sacuvajProizvod" method="post">
+        <br>
+        Ime Kategorije: <input type="text" name="imeKategorije" placeholder="Unesite ime proizvoda"> 
+        <br><br>
+        Cena: <input type="number" name="cena" min="0" placeholder="Unesite cenu proizvoda">
+        <br><br>
+        Valuta: <input type="text" name="valuta" placeholder="Unesite valutu cene">
+        <br><br>
+        Oznaka: <input type="text" name="oznaka" placeholder="Unesite oznaku proizvoda">
+        <br><br>
+        Akcijska cena: <input type="number" name="cena2" min="0" placeholder="Unesite akcijsku cenu proizvoda">
+        <br><br>
+        Datum isteka: <input type="text" name="datumIsteka" placeholder="Unesite datum isteka akcije">
+        <br><br>
+        Tekst: 
+        <br>
+        <textarea name="Tekst" minlength="10" maxlength="180"
+        rows="6" cols="35" placeholder="Unesite tekst proizvoda"></textarea>
+        <br>
+        <br>
+        <button type="submit">Dodaj proizvod</button>
+    </form>
+</body>
+</html>
